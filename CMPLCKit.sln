@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo", "TestDemo\TestDemo.csproj", "{DE17FDB1-672E-48DF-ADE7-4C95B7FCF7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMPLCKit", "CMPLCKit\CMPLCKit.csproj", "{4AFC6E00-D70A-452B-A98D-D752991F70E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE17FDB1-672E-48DF-ADE7-4C95B7FCF7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE17FDB1-672E-48DF-ADE7-4C95B7FCF7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE17FDB1-672E-48DF-ADE7-4C95B7FCF7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE17FDB1-672E-48DF-ADE7-4C95B7FCF7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFC6E00-D70A-452B-A98D-D752991F70E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFC6E00-D70A-452B-A98D-D752991F70E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFC6E00-D70A-452B-A98D-D752991F70E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFC6E00-D70A-452B-A98D-D752991F70E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6E4DB9-A785-4E06-ADDC-062B6E8FAF6D}
+	EndGlobalSection
+EndGlobal
