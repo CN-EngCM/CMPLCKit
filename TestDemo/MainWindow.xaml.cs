@@ -64,7 +64,8 @@ namespace TestDemo
         {
             var appServer = new AppServer();
             appServer.Setup("127.0.0.1",12345);
-            appServer.Start();
+            appServer.Start(); 
+
         }
     }
 }
