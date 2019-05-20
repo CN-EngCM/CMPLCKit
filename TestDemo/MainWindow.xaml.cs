@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Threading;
 using System.Diagnostics;
 using CMPLCKit;
+using SuperSocket.SocketBase;
 
 namespace TestDemo
 {
@@ -57,6 +58,13 @@ namespace TestDemo
         {
             PLCManagement.Initialize();
             //PLCManagement.Run();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var appServer = new AppServer();
+            appServer.Setup("127.0.0.1",12345);
+            appServer.Start();
         }
     }
 }
