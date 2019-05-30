@@ -29,8 +29,8 @@ namespace TestClient.Base
     public class MessagePackage : IPackageInfo
     {
         public string Command { get; set; }
-        public string JsonParas { get; set; }
+        public string JsonParas { get; set; } 
 
-
+             
     }
 }
