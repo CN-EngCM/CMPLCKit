@@ -77,6 +77,9 @@ namespace TestDemo
             OnSerialPortStatusChanged?.Invoke(sender, e);
         }
 
+        /// <summary>
+        /// 启动服务
+        /// </summary>
         public static void Run()
         {
             plc.StartService();
